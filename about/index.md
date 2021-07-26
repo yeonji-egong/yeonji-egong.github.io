@@ -9,9 +9,19 @@ comments: false
 <center><a href="http://yeonji-egong.github.io"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
 # Hi there, I'm kyin. <img width="30px" src="https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif" />
+<br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br />
 
 <img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
-
+<br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br />
 ## I'm a Computer Science and Engineering Student  
 
 -  I major in computer engineering and in the 3rd grade.
