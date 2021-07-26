@@ -1,45 +1,149 @@
 ---
 layout: post
-title: "Testing Readability with a Bunch of Text"
-date: 2012-05-22
-excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
+title: "about git"
+date: 2021-07-26
+excerpt: "about git"
+tags: [git, github]
 comments: true
 ---
 
-Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
+# 개요
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+깃을 소개하고 깃의 기초에 대해 알아보겠다.
 
-## Cupidatat 90's lo-fi authentic try-hard
+<br />
+<br />
 
-In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's.
+---
 
-* Sartorial hoodie
-* Labore viral forage
-* Tote bag selvage
-* DIY exercitation et id ugh tumblr church-key
+# 버전 관리
 
-Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.
+버전 관리 시스템의 정의는 파일변화를 시간에 따라 기록했다가 나중에 특정 시점의 버전을 다시 꺼내올 수 있는 시스템을 말한다.
 
-Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven't heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney's Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.
+영어로 Version Control System이라고 하며 줄여서 VCS라고 말한다.
 
-## Forage occaecat cardigan qui
+버전 관리 시스템을 사용하면 각 파일 또는 프로젝트 전체를 이전 상태로 되돌릴 수 있고 누가 언제 만들어낸 이슈인지도 알 수 있으며 파일에 오류가 생겨도 쉽게 복구 할 수 있다.
 
-Fashion axe hella gastropub lo-fi kogi 90's aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.
+버전 관리 시스템에는 로컬 버전 관리, 중앙집중식 버전 관리(CVCS), 분산 버전 관리 시스템(DVCS)가 있다.
 
-> Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.
+#### 로컬 버전 관리
 
-Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney's next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney's sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.
+로컬 버전 관리란 서버를 이용하지 않고 이용하여 로컬 컴퓨터에서만 버전을 관리하는 것이다. 
 
-## Hoodie Duis
+흔히들 사용하는 컴퓨터 환경을 생각하면된다. 로컬에서 많이 사용하는 VCS는 RCS(Revision Control System)이라고 하는 툴이 있는데 Mac os X는 개발도구에 있다.
 
-Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90's pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.
+<figure>
+	<a href="https://user-images.githubusercontent.com/79088896/123038361-343c9580-d42b-11eb-8a4c-b64654f59df1.png">
+		<img src="https://user-images.githubusercontent.com/79088896/123038361-343c9580-d42b-11eb-8a4c-b64654f59df1.png" class="w8" />
+	</a>
+</figure>
 
-### Thundercats Ho!
+그림에서 보듯이 로컬 컴퓨터 안에서 간단한 데이터베이스를 사용해서 파일의 변경정보를 관리한다.
 
-Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney's seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.
+개인 로컬에서만 사용하기 때문에 개인 프로젝트에 적합하다.
 
-Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney's selfies. Odd Future Banksy non authentic.
+<br />
+<br />
 
-Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.
+#### 중앙집중식 버전 관리
+
+중앙집중식 버전관리(CVCS)는 파일을 관리하는 서버가 별도로 있고 클라이언트가 중앙 서버에서 파일을 받아서 사용하는 것이다.
+
+<figure>
+	<a href="https://user-images.githubusercontent.com/79088896/123039749-a910cf00-d42d-11eb-87d1-4bdfdea2f33f.png">
+		<img src="https://user-images.githubusercontent.com/79088896/123039749-a910cf00-d42d-11eb-87d1-4bdfdea2f33f.png" class="w8" />
+	</a>
+</figure>
+
+사진과 같이 Central VCS Server가 별도로 존재하고 사용자 A와 B가 파일을 가져오는 방식으로 한다.
+
+그러므로 중앙 서버에 에러가 발생한다면 모든 사용자는 셧다운 되는 위험이 존재한다.
+
+위키피디아같이 서버는 한군데에 있고 서로 다른 사용자가 가져와서 수정한 후에 다시 서버에 저장되는 것이라 보면된다.
+
+<br />
+<br />
+
+#### 분산 버전 관리 시스템
+
+DVCS의 클라이언트는 단순하게 파일의 마지막 스냅샷을 사용하지 않는다 그냥 저장소를 전부 복제하여 사용한다.
+
+<figure>
+	<a href="https://user-images.githubusercontent.com/79088896/123040306-829f6380-d42e-11eb-8e52-8819ce7c196c.png">
+		<img src="https://user-images.githubusercontent.com/79088896/123040306-829f6380-d42e-11eb-8e52-8819ce7c196c.png" class="w8" />
+	</a>
+</figure>
+
+<br />
+<br />
+
+사진과 같이 리모트 저장소 자체를 복제하여 각 사용자의 로컬 환경에서 사용한다. 
+
+우리가 사용하고자 하는 GIT이 분산버전 관리 시스템에 해당한다.
+
+# GIT의 파일 관리 방법
+
+<figure>
+	<a href="https://user-images.githubusercontent.com/79088896/123040931-8a133c80-d42f-11eb-844a-53d25167460d.png">
+		<img src="https://user-images.githubusercontent.com/79088896/123040931-8a133c80-d42f-11eb-844a-53d25167460d.png" class="w8" />
+	</a>
+</figure>
+
+<br />
+<br />
+
+Git은 파일을 `Committed`, `Modified`, `Staged` 이렇게 세가지의 상태로 관리한다. 
+
+* **Committed**이란 데이터가 로컬 데이터베이스에 안전하게 저장됐다는 것을 말한다.
+* **Modified**란 로컬에서 수정한 파일을 아직 로컬 데이터베이스에 커밋하지 않은 상태를 말한다.
+* **Staged**란 현재 수정한 파일을 곧 커밋할 것이라고 표시한 상태를 말한다.
+
+사진에서 Working Directory는 로컬 환경에서 프로그래머가 프로젝트의 특정 버전을 사용하는 공간을 말한다.
+
+Staging Area는 Git 디렉토리 안에 있다. 
+
+Git 디렉토리 안에 있는 파일들은 Committed 상태이다.
+
+파일을 수정하고 Staging Area에 추가했다면 Staged 상태이다.
+
+Checkout(사용)하고 나서 수정했지만, 아직 Working Directory에 있다면 Modified 상태이다.
+
+# Git 설치와 초기설정
+
+#### 리눅스
+
+`sudo apt-get install git`
+
+#### 유닉스(맥)
+
+그냥 깔려있다.
+
+#### 윈도우
+
+bash를 이용한다. 여러가지 방법이 있다.
+
+#### 초기설정
+
+git 커밋을 한 번 하면 정보르 변경할 수 없기 때문에 먼저 설정을 해야한다.
+
+`git config --global user.name "내이름"`
+
+`git config --global user.email 내 이메일`
+
+<br />
+<br />
+
+`git config --list`를 치면
+
+<figure>
+	<a href="https://user-images.githubusercontent.com/79088896/123191544-622de280-d4dc-11eb-9ec8-ef155aa86daa.png">
+		<img src="https://user-images.githubusercontent.com/79088896/123191544-622de280-d4dc-11eb-9ec8-ef155aa86daa.png" class="w8" />
+	</a>
+</figure>
+
+<br />
+<br />
+
+이렇게 자신의 정보로 업데이트 되었으면 잘 된 것이다.
+
+
