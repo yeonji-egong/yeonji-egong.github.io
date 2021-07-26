@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://yeonji-egong.github.io"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+
 
 # Hi there, I'm kyin. <img width="30px" src="https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif" />
 <br />
