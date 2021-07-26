@@ -15,8 +15,8 @@ comments: false
 ## I'm a Computer Science and Engineering Student  
 
 -  I major in computer engineering and in the 3rd grade.
-- 📚 I’m currently learning at university and 42seoul.
-- 💪🏼 Future Goals: be a sports interactive engineer
+- 📚 I’m currently learning at seokyeong university and 42seoul.
+- 💪🏼 Future Goals: be a 'sports interactive' engineer
 - ⚡ Fun fact: I love to play bowling.
 
 ```sh
@@ -28,5 +28,5 @@ comments: false
  ```
  
  ```sh
- Subjects studied alone : assembly language
+ Subjects studied alone : C Language
 ```
